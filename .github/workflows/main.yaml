@@ -1,1 +1,12 @@
----
+name: To test the workflow
+on: [push]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout the cod
+        uses: actions/checkout
+
+      - name: print the user
+        run: date
