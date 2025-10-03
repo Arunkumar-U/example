@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout the cod
-        uses: actions/checkout
+        uses: actions/checkout@v4
 
       - name: print the user
         run: date
